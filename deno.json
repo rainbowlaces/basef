@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno test --watch ./src/**/*.ts",
+    "test": "deno test ./**/*.ts"
+  },
+  "workspace": [
+    "./utils"
+  ]
+}
