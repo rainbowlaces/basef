@@ -71,6 +71,11 @@
           "jsr:@std/assert@1"
         ]
       },
+      "di": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      },
       "logger": {
         "dependencies": [
           "jsr:@std/assert@1"

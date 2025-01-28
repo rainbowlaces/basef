@@ -1,0 +1,17 @@
+{
+  "name": "@basef/di",
+  "version": "1.0.0",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno test --watch ./**/*.ts"
+  },
+  "license": "MIT",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  },
+  "lint": {
+    "rules": {
+        "exclude": ["require-await"]
+    }
+}
+}
