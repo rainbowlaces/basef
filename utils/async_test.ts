@@ -1,4 +1,4 @@
-import { assertEquals } from "@std/assert";
+import { assertEquals } from "jsr:@std/assert";
 import { microtask, tick, delay, asyncMap, asyncFilter } from "./async.ts";
 
 Deno.test("microtask resolves on the next microtask queue", async () => {

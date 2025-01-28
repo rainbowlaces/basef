@@ -1,6 +1,6 @@
 {
-  "name": "@basef/utils",
-  "version": "1.0.3",
+  "name": "@basef/logger",
+  "version": "1.0.0",
   "exports": "./mod.ts",
   "tasks": {
     "dev": "deno test --watch ./src/**/*.ts"

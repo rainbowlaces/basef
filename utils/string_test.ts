@@ -1,4 +1,4 @@
-import { assertEquals } from "@std/assert";
+import { assertEquals } from "jsr:@std/assert";
 import { merge } from "./recursion.ts";
 
 Deno.test("merge should override simple properties", () => {
