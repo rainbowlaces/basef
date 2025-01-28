@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "exports": "./mod.ts",
   "tasks": {
-    "dev": "deno test --watch ./src/**/*.ts"
+    "dev": "deno test --watch ./**/*.ts"
   },
   "license": "MIT",
   "imports": {
