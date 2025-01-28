@@ -17,7 +17,7 @@ import {
   type LogMessageSerializerConfig,
 } from "./logMessageSerializer.ts";
 
-import { tick } from "jsr:@basef/utils";
+import { tick } from "@basef/utils";
 
 import process from "node:process";
 import console from "node:console";
