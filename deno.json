@@ -5,6 +5,7 @@
   },
   "workspace": [
     "./utils",
-    "./logger"
+    "./logger",
+    "./config"
   ]
 }
