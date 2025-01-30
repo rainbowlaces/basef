@@ -67,7 +67,7 @@ export class BasePubSub {
     BasePubSub.subscriptions.delete(topic);
   }
 
-  static async once(topic: string) {
+  static async once(topic: string): Promise<void> {
     return new Promise<void>((resolve) => {
       this.sub(topic, async () => resolve(), true);
     });
