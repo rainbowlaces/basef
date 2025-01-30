@@ -121,6 +121,11 @@
           "jsr:@std/assert@1"
         ]
       },
+      "pubsub": {
+        "dependencies": [
+          "jsr:@std/assert@1"
+        ]
+      },
       "utils": {
         "dependencies": [
           "jsr:@std/assert@1"

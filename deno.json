@@ -8,6 +8,7 @@
     "./logger",
     "./config",
     "./di",
-    "./path-match"
+    "./path-match",
+    "./pubsub"
   ]
 }
