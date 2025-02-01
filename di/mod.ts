@@ -16,7 +16,7 @@ interface BaseDiWrapper<T> {
   type?: "constructor" | "instance" | "scalar";
   value?: Constructor<T> | Instance<T> | Scalar;
 }
-
+export { di } from "./decorator.ts";
 export class BaseDi {
   private static instances: Map<string, BaseDiWrapper<unknown>> = new Map();
 
